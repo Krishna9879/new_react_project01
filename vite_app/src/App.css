@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+.side-bar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  background-color: black;
+  padding: 15px;
+  gap: 25px;
+}
+
+.logo>img {
+  width: 100px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home>img {
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  color: aliceblue;
+  font: bold;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.maincontent {
+  display: flex;
+  background-color: #202020;
+  width: 85%;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.upper-body {
+  display: flex;
+}
+
+.navbar>img {
+  height: 34px;
+}
+
+.content5 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: #303030;
+  width: 100%;
+
+}
+
+.card1 img {
+  width: 70px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.content5>p {
+  font-size: 3em;
+
+}
+
+.content6 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 71px;
+}
+
+.navbar2>p {
+  font-size: larger;
+  margin-left: 20px;
+}
+
+.cards2 {
+  padding: 20px;
+  background-color: #303030;
+  width: 188px;
+  height: 228px;
+  margin-left: 20px;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+}
+
+.image1>img {
+  width: 200px;
+  height: 234px;
+  border: 2px solid red;
+}
+
+.songs-playlist {
+  display: flex;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #303030;
+  justify-content: space-between;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 200px;
+  height: 50px;
+}
+.footer2 img{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+.footer-card{
+  display: flex;
+  width: 20%;
+} 
